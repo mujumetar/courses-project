@@ -172,3 +172,7 @@ footer {
 .col-12 > a:hover {
   text-decoration: underline;
 }
+
+#naving {
+  z-index: 10;
+}
