@@ -45,26 +45,43 @@
 
         <div
             class="backdrop position-absolute top-50 start-50 translate-middle px-5 d-flex flex-column justify-content-center align-items-center backdrop">
-            <img src="/img/loder.png" alt="" class="img-posi m-5  p-3 img-fluid rounded-circle shadow position-absolute">
+            <img src="/img/loder.png" alt=""
+                class="img-posi m-5  p-3 img-fluid rounded-circle shadow position-absolute">
             <div class="login d-flex flex-column justify-content-center align-items-center border-1 p-5">
-                <h1 class="fw-bold text-white">Login Here</h1>
+                <h1 class="fw-bold text-white">Registration Here</h1>
 
 
-                <form class="my-5">
+                <form class="mt-5">
+                    <div class="mb-3 ">
+                        <label for="exampleInputname" class="form-label text-white">Full Name</label>
+                        <input type="email" class="form-control" id="exampleInputname" aria-describedby="emailHelp"
+                            placeholder="Full Name">
+                    </div>
                     <div class="mb-3 ">
                         <label for="exampleInputEmail1" class="form-label text-white">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email">
                     </div>
+
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label text-white">Password</label>
-                        <input type="password" class="form-control text-dark" id="exampleInputPassword1" placeholder="Password">
+                        <input type="password" class="form-control text-dark" id="exampleInputPassword1"
+                            placeholder="Password">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword2" class="form-label text-white">Confirm Password</label>
+                        <input type="password" class="form-control text-dark" id="exampleInputPassword2"
+                            placeholder="Password">
                     </div>
                     <div class="mb-3 form-check d-flex flex-column text-start">
-                      <a href="#" class=" text-form">Forgot Password ?</a>
-                      <a href="/register.html" class="text-form">Registration</a>
+                        <a href="#" class=" text-form">Forgot Password ?</a>
+                        <a href="#" class="text-form">Registration</a>
                     </div>
-                    <button type="submit" class="btn btn-outline-primary w-100 border border-white text-white">Submit</button>
+                    <button type="submit"
+                        class="btn btn-light w-100 border border-white text-dark">Register</button>
                 </form>
+                <a href="/login.html" class=" text-form">Login</a>
 
             </div>
         </div>
