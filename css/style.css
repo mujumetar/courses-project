@@ -236,7 +236,7 @@ video {
 }
 
 .backdrop {
-  background-color: black;
+  background-color: #0000007a;
   backdrop-filter: 0.5;
   border-radius: 10px;
   -webkit-border-radius: 10px;
