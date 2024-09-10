@@ -18,16 +18,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
 </head>
 
 <body>
 
 
-    <!-- <div class="preloader d-flex justify-content-center align-items-center">
-            <div class="spinner-border p-5 position-fixed top-50 start-50 translate-middle border-top" role="status">
-                <img src="/img/loder.png" alt="" class="preloader-img">
-            </div>
-        </div> -->
+    <div class="preloader position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center loader-shade shadow">
+        <img src="/img/loder.png" alt="" class="shadow  img-fluid preloader-img position-absolute translate-middle top-50 start-50">
+        <div class="spinner-border p-5" style="border-top:1px solid transparent" role="status">
+        </div>
+    </div>
 
 
     <div class="container-fluid position-fixed header" id="naving">
@@ -231,108 +235,105 @@
 
     <div class="container my-5">
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active d-flex justify-content-evenly align-items-center">
-                    <div class="card" style="width: 25rem;">
-                        <img src="/img/featured.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-light fs-5">User Experience</h5>
-                            <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
-                            <p class="card-text">The automated process all your website tasks. Discover tools and
-                                techniques to engage effectively with vulnerable children and young people.
-                            </p>
+
+        <div class="responsive-card">
+            <div class="slider">
+                <div class="card" style="width: 90%;">
+                    <img src="/img/featured.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="fw-light fs-5">User Experience</h5>
+                        <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
+                        <p class="card-text">The automated process all your website tasks. Discover tools and
+                            techniques to engage effectively with vulnerable children and young people.
+                        </p>
 
 
-                            <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
-                                More</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 25rem;">
-                        <img src="/img/featured.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-light fs-5">User Experience</h5>
-                            <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
-                            <p class="card-text">The automated process all your website tasks. Discover tools and
-                                techniques to engage effectively with vulnerable children and young people.
-                            </p>
-
-
-                            <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
-                                More</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 25rem;">
-                        <img src="/img/featured.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-light fs-5">User Experience</h5>
-                            <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
-                            <p class="card-text">The automated process all your website tasks. Discover tools and
-                                techniques to engage effectively with vulnerable children and young people.
-                            </p>
-
-
-                            <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
-                                More</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item  d-flex justify-content-evenly align-items-center">
-                    <div class="card" style="width: 25rem;">
-                        <img src="/img/featured.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-light fs-5">User Experience</h5>
-                            <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
-                            <p class="card-text">The automated process all your website tasks. Discover tools and
-                                techniques to engage effectively with vulnerable children and young people.
-                            </p>
-
-
-                            <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
-                                More</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 25rem;">
-                        <img src="/img/featured.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-light fs-5">User Experience</h5>
-                            <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
-                            <p class="card-text">The automated process all your website tasks. Discover tools and
-                                techniques to engage effectively with vulnerable children and young people.
-                            </p>
-
-
-                            <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
-                                More</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 25rem;">
-                        <img src="/img/featured.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-light fs-5">User Experience</h5>
-                            <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
-                            <p class="card-text">The automated process all your website tasks. Discover tools and
-                                techniques to engage effectively with vulnerable children and young people.
-                            </p>
-
-
-                            <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
-                                More</a>
-                        </div>
+                        <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
+                            More</a>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="slider">
+                <div class="card" style="width: 90%;">
+                    <img src="/img/featured.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="fw-light fs-5">User Experience</h5>
+                        <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
+                        <p class="card-text">The automated process all your website tasks. Discover tools and
+                            techniques to engage effectively with vulnerable children and young people.
+                        </p>
+
+
+                        <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="card" style="width: 90%;">
+                    <img src="/img/featured.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="fw-light fs-5">User Experience</h5>
+                        <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
+                        <p class="card-text">The automated process all your website tasks. Discover tools and
+                            techniques to engage effectively with vulnerable children and young people.
+                        </p>
+
+
+                        <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="card" style="width: 90%;">
+                    <img src="/img/featured.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="fw-light fs-5">User Experience</h5>
+                        <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
+                        <p class="card-text">The automated process all your website tasks. Discover tools and
+                            techniques to engage effectively with vulnerable children and young people.
+                        </p>
+
+
+                        <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="card" style="width: 90%;">
+                    <img src="/img/featured.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="fw-light fs-5">User Experience</h5>
+                        <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
+                        <p class="card-text">The automated process all your website tasks. Discover tools and
+                            techniques to engage effectively with vulnerable children and young people.
+                        </p>
+
+
+                        <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="card" style="width: 90%;">
+                    <img src="/img/featured.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="fw-light fs-5">User Experience</h5>
+                        <h5 class="card-title"><a href="#">Fundamental Of UX For Application Design</a></h5>
+                        <p class="card-text">The automated process all your website tasks. Discover tools and
+                            techniques to engage effectively with vulnerable children and young people.
+                        </p>
+
+
+                        <a href="#" class="btn btn border cubic-verticle position-relative w-100 px-2 py-3">Find Out
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -564,41 +565,75 @@
     <div class="container d-flex justify-content-center my-5">
         <h2 class="purple-clr fs-1 my-5"> Community experts</h2>
     </div>
-    <!-- /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /                                                      slider 
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    /
-    / -->
+
+    <div class="container mb-5">
+        <div class="responsive">
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+            <div class="slider d-flex justify-content-center align-items-center text-center">
+                <div class="team p-2">
+                    <div class="img-team m-2 p-3">
+                        <img src="/img/team3.png" alt="" class="img-fluid">
+                    </div>
+                    <h3>Mr.Shakil</h3>
+                    <p>the Automated process all your <br> website tasks</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <div class="container my-5">
         <div class="row">
@@ -625,8 +660,6 @@
             </div>
         </div>
     </div>
-
-
 
     <footer>
         <div class="container mt-5 p-5">
@@ -691,8 +724,17 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
 <script>
-    // let fix = 200;
+
+    $(window).on('load',function(){
+        $(".preloader").fadeOut(1500);
+    })
+
+    
 
     $(window).scroll(function () {
 
@@ -704,8 +746,82 @@
         else {
             $("#naving").slideUp("slower")
         }
-
     })
+
+
+    $('.responsive').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        autoplay: true,
+        autoplayDelay: 1500,
+        loop: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+    });
+
+
+    $('.responsive-card').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        autoplay: true,
+        autoplayDelay: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+    });
 </script>
 
 </html>
