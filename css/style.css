@@ -253,3 +253,8 @@ video {
   top: -15%;
 }
 
+.logo-text {
+  font-size: large;
+  font-weight: bolder;
+  color: white;
+}
